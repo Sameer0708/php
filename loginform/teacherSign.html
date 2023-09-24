@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teacher Sign Up</title>
+</head>
+<body class="Tloginbody">
+    <div class="wrapper">
+        <form class="wrapper-content p-t"name="myForm" onsubmit="return validateForm()">
+            <h2 class="login-heading">Teacher Signup</h2>
+            <input type="text" placeholder="Full Name" class="name" id="name" name="fname" required>
+            <input type="email" placeholder="Email" class=" name " id="email" name="email" required>
+            <div class="rowflex">
+                <input type="text" placeholder="Subject" class=" half subject" id="subject" required>
+                <input type="number" placeholder="Mobile Number" class=" half number" id="mobile" name="number" required>
+            </div>
+            <div class="rowflex credentials-mb">
+                <input type="text" placeholder="Username" class=" half username" id="username" required>
+                <input type="password" placeholder="Password" class=" half password" id="password" required>
+            </div>
+            <div class="credentials-mb">
+                <label class="">Choose Department</label>
+                <select name="select" id="dpt" class="name select-w" required>
+                    <option value="IT">Information Technology</option>
+                    <option value="mechanics">Mechanical Engineering</option>
+                    <option value="automobile">Automobile</option>
+                    <option value="computer">Computer</option>
+                </select>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male">Male</input>
+                <input type="radio" name="gender" value="Female">Female</input>
+                <input type="radio" name="gender" value="Other">Other</input>
+            </div>
+            <button class="loginbtn">Sign Up</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow: hidden;
+}
+.Tloginbody{
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)), url(Images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.wrapper{
+    width: 40%;
+    height: 70vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 7vw;
+    color: white;
+}
+.login-heading{
+    color: white;
+}
+.wrapper-content{
+    width: 80%;
+    height: 100%;
+    color: white;
+    margin: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+.img-container{
+    width: 30%;
+    margin: auto;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.name{
+    width: 97%;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    height: 3vh;
+    background-color: white;
+    opacity: 0.7;
+    border: none;
+}
+.loginbtn{
+    display: block;
+    width: 35%;
+    height: 5vh;
+    border: none;
+    margin: auto;
+    margin-top: 2vh;
+    border-radius: 5rem;
+    font-size: 2vh;
+}
+.forgot{
+    color: #eee9e9;
+    margin-top: 2vh;
+}
+.forgot a{
+    color: #eee9e9;
+}
+.lower{
+    margin-top: 2vh;
+    color: #fff;
+}
+.signupt{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+
+/* teacher's signup page */
+.Tsignupbg{
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)), url(Images/bg8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.half{
+    width: 45%;
+    background-color: white;
+    height: 3vh;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    opacity: 0.7;
+    border: none;
+}
+.rowflex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.width-opt{
+    width: 48%;
+    height: 5vh;
+}
+.p-t{
+    padding: 3rem 2rem 2rem 2rem;
+}
+.credentials-mb{
+    margin-bottom: 2vh;
+}
+.select-w{
+    height: 5vh;
+}
+.error{
+    font-size: 2vh;
+    color: red;
+}
+
+
+.Aloginbody{
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(Images/bg10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.wrapper{
+    width: 40%;
+    height: 70vh;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 7vw;
+    color: white;
+}
+.admin{
+    border: 2px solid rgb(255, 255, 255, 0.14);
+    background-color: #a3a0a06d;
+    backdrop-filter: blur(10px);
+}
+.ap-t{
+    padding-top: 6rem;
+}
+
+
+/* principal */
+.Ploginbody{
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(Images/bg16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.Sloginbody{
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(Images/bg7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+@media only screen and (max-width: 899px){
+    .wrapper{
+        border: none;
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 731px){
+    .admin{
+        width: 50%;
+        height: 60vh;
+    }
+    .loginbtn{
+        display: block;
+        width: 40%;
+        height: 5vh;
+        border: none;
+        margin: auto;
+        margin-top: 2vh;
+        border-radius: 5rem;
+        font-size: 2vh;
+    }
+}
+@media only screen and (max-width: 552px){
+    .wrapper{
+        border: none;
+    }
+}
+@media only screen and (max-width: 364px){
+    .wrapper{
+        height: 100%;
+    }
+    .half{
+        width: 100%;
+    }
+}
